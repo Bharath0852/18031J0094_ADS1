@@ -9,13 +9,12 @@ public class Solution
 	{
 		Scanner sc=new Scanner(System.in);		
 		String st=sc.nextLine();
+		char co;
+		boolean comp=true;
 		while(sc.hasNext())
 		{
 			st=sc.nextLine();
 			Stack s= new Stack(st.length());
-			char co;
-			
-			boolean comp=true;
 			for(int i=0;i<st.length();i++)
 			{
 				char ch=st.charAt(i);
@@ -50,7 +49,7 @@ public class Solution
 			}
 			if(comp==false)
 			{
-				//comp=true;
+				comp=true;
 				System.out.println("NO");
 			}
 			else
