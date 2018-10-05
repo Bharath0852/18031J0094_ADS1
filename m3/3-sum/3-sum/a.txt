@@ -1,0 +1,101 @@
+########## Testcase 0: Passed ##########
+Expected Output: 
+70
+
+Your Output: 
+70
+
+----------------------------------------
+########## Testcase 1: Passed ##########
+Expected Output: 
+528
+
+Your Output: 
+528
+
+----------------------------------------
+########## Testcase 2: Failed ##########
+Expected Output: 
+4039
+
+Your Output: 
+
+
+----------------------------------------
+########## Testcase 3: Failed ##########
+Expected Output: 
+32074
+
+Your Output: 
+
+
+----------------------------------------
+Result: 2/4 testcases passed.
+Starting audit...
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:4: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:5: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:5:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:5:10: Class 'Solution' looks like designed for extension (can be subclassed), but the method 'count' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Solution' final or making the method 'count' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:5:10: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:5:28: Parameter a should be final. [FinalParameters]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:5:36: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:6: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:7: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:7:22: Name 'N' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:8: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:10:18: '{' at column 4 should be on the previous line. [LeftCurly]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:11: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:11:40: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:11:41: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:12:26: '{' at column 5 should be on the previous line. [LeftCurly]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:13: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:13:48: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:13:49: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:14:34: '{' at column 6 should be on the previous line. [LeftCurly]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:15: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:15: Line is longer than 80 characters (found 87). [LineLength]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:16:42: '{' at column 7 should be on the previous line. [LeftCurly]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:20: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:22: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:24: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:25: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:26: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:27: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:28: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:29: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:30: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:31: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:31:10: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:31:34: Parameter args should be final. [FinalParameters]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:32: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:32:10: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:33:29: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:33:30: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:34:23: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:34:24: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:35: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:36:29: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:36:30: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:37: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:37:21: 'for' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:37:27: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:37:28: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:37:30: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:37:31: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:37:32: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:37:34: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:38:18: '{' at column 4 should be on the previous line. [LeftCurly]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:39:30: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:39:31: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\ADS-1-practicem1\m3\3-sum\3-sum\Solution.java:41: Line has trailing spaces. [RegexpSingleline]
+Audit done.
+Checkstyle ends with 58 errors.
+
+
+[master 0e8a806] "check_style_score -> 2 of 4 passed. style score: 0/1 "
+ 1 file changed, 288 deletions(-)
+ rewrite ADS-1-practicem1/m3/3-sum/3-sum/a.txt (100%)
+
+
