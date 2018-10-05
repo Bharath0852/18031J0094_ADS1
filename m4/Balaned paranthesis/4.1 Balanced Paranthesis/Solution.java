@@ -41,11 +41,11 @@ public class Solution
 						co=s.pop();
 						comp=(co=='[');
 						break;
-			}
-			if(comp==false)
-			{
-				break;
-			}	
+				}
+				if(comp==false)
+				{
+					break;
+				}	
 			}
 			if(comp==false)
 			{
@@ -59,7 +59,6 @@ public class Solution
 		}
 	}
 }
-
 class Stack
 {
 	char [] a;
