@@ -65,8 +65,6 @@ class Stack
 	int Top=0;
 	public Stack(int n)
 	{
-		Scanner sc = new Scanner (System.in);
-		n=sc.nextInt();
 		a= new char [n];
 	}
 	boolean IsEmpty()
