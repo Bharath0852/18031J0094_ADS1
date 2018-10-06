@@ -40,6 +40,7 @@ public class Solution
 					case ']' :
 						co=s.pop();
 						comp=(co=='[');
+						
 						break;
 				}
 				if(comp==false)
