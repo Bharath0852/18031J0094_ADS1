@@ -42,10 +42,10 @@ public class Solution
 						
 						break;
 				}
-//				if(comp==false)
-//				{
-//					break;
-//				}	
+				if(comp==false)
+				{
+					break;
+				}	
 			}
 			if(comp==false)
 			{
