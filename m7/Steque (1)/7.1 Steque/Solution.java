@@ -20,20 +20,20 @@ public class Solution
 			{
 				n2=s2[1];
 			
-			//num=Integer.parseInt(n2);
+			num=Integer.parseInt(n2);
 			switch(n1)
 			{
 				case "push" :
-					s.push(Integer.parseInt(n2));
-					//s.push(num);
+					//s.push(Integer.parseInt(n2));
+					s.push(num);
 					break;
 				case "pop" :
 					s.pop();
 					s.print();
 					break;
 				case "enqueue" :
-					s.enqueue(Integer.parseInt(n2));
-					//s.enqueue(num);
+					//s.enqueue(Integer.parseInt(n2));
+					s.enqueue(num);
 					break;
 			}}
 		}
