@@ -1,4 +1,4 @@
-package M7;
+
 import java.util.*;
 
 public class Solution 
@@ -20,11 +20,12 @@ public class Solution
 			{
 				n2=s2[1];
 			}
-			//num=Integer.parseInt(n2);
+			num=Integer.parseInt(n2);
 			switch(n1)
 			{
 				case "push" :
 					s.push(Integer.parseInt(n2));
+					s.push(num);
 					break;
 				case "pop" :
 					s.pop();
@@ -32,6 +33,7 @@ public class Solution
 					break;
 				case "enqueue" :
 					s.enqueue(Integer.parseInt(n2));
+					s.enqueue(num);
 					break;
 			}
 		}
