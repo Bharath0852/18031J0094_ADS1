@@ -10,7 +10,7 @@ public class Solution
 		Scanner sc = new Scanner (System.in);
 		String n1,n2 = null;
 		int num,num1;
-		
+		num1=sc.nextInt();
 		while(sc.hasNext())
 		{
 			String s1=sc.nextLine();
