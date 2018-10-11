@@ -18,14 +18,14 @@ public class Solution
 			n1=s2[0];
 			if(s2.length>1)
 			{
-				n2=s2[1];
+				n2=s2[2];
 			}
-			num=Integer.parseInt(n2);
+			//num=Integer.parseInt(n2);
 			switch(n1)
 			{
 				case "push" :
 					s.push(Integer.parseInt(n2));
-					s.push(num);
+					//s.push(num);
 					break;
 				case "pop" :
 					s.pop();
@@ -33,7 +33,7 @@ public class Solution
 					break;
 				case "enqueue" :
 					s.enqueue(Integer.parseInt(n2));
-					s.enqueue(num);
+					//s.enqueue(num);
 					break;
 			}
 		}
