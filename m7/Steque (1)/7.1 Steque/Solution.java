@@ -18,8 +18,8 @@ public class Solution
 			n1=s2[0];
 			if(s2.length>1)
 			{
-				n2=s2[2];
-			}
+				n2=s2[1];
+			
 			//num=Integer.parseInt(n2);
 			switch(n1)
 			{
@@ -35,7 +35,7 @@ public class Solution
 					s.enqueue(Integer.parseInt(n2));
 					//s.enqueue(num);
 					break;
-			}
+			}}
 		}
 	}
 
