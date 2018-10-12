@@ -1,145 +1,177 @@
+import java.util.Scanner;
+import java.util.Stack;
 
-import java.util.*;
 
-class lists
+class Node
 {
-	 Node temp ;
-	Node head;
-	class Node 
+	 Object item;
+	 Node next;
+	 Node prev;
+	 Node(Object d)
+	 {
+		 item=d;
+		 next=null; 
+		 prev=null;
+	 }
+	 public void displayNode() {
+		 if(item!=null)
+		 {
+		    System.out.print(item);
+		    System.out.print(" ");
+		 }
+
+		 }
+}
+
+public class Solution {
+	private Node first;
+	private Node last;
+	public boolean isEmpty()
 	{
-        int data;
-        Node next; 
-       
-        Node(int d)  
-        {
-        	this.data = d; 
-        	next=null;
-        }
+		return first==null;
 	}
-	public void insert(int a)
+	public void EnqueueAtLast(Object item)
 	{
-		Node n=new Node(a);
-		
-		if(head==null)
+		Node n=new Node(item);
+		if(isEmpty())
 		{
-			head=n;
-			//System.out.println("gh"+head.data);
-			
-		}
-		else if(head.next==null)
-		{
-			
-			temp=n;
+			first=n;
+		    last=n;
 		}
 		else
 		{
-			while(temp.next==null)
-					temp.next=n;
+            last.next=n;
+            last=last.next;
 		}
 	}
-	public void print()
+	public void EnqueueAtFirst(Object item)
 	{
-		Node temp=head;
+        
+		 Node n = new Node(item);
+		   Node temp=first;
+		    if(this.isEmpty())
+			{
+		    	
+		    	 first = n;
+		    	 last=n;
+			}
+		    /*if(isEmpty())
+			{
+				first=last;
+			}*/
+			else
+			{
+				first=n;
+				first.next=temp;
+			}
+	}
+	public void DequeueAtFirst()
+	{
+		if(this.isEmpty())
+		{
+			System.out.println("Deck is empty");
+			return;
+		}
+		Node temp=first;
+		first=temp.next;
+		
+	}
+	public void DequeueAtLast()
+	{
+		Node temp=first;
+		    if(this.isEmpty())
+		    {
+		    	System.out.println("Deck is empty");
+		    	return;
+		    }
+		    else if(temp.next==null)
+		    {
+		    	last=temp;
+		    }
+		    else
+		    {
+			while(temp!=null)
+			{
+				
+				if(temp.next.next==null)
+				{
+					
+					temp.next=null;
+					break;
+				}
+				temp=temp.next;
+			}
+			last=temp;
+		    }
+	}
+	int size()
+	{
+		int count=0;
+		Node temp=first;
 		while(temp!=null)
 		{
-			System.out.println(temp.data);
+			count++;
+			temp=temp.next;
+			
+		}
+	return count;
+	}
+	void dispaly1(Solution q)
+	{
+		Stack d=new Stack();
+		Node temp=first;
+		if(temp==null)
+		{
+			System.out.println(d);
+		}
+		else
+		{
+		while(temp!=null)
+		{
+			d.push(temp.item);
 			temp=temp.next;
 		}
-	}
-	public int deletefst() 
-	{
-		int element=head.data;
-		//d=element;
-		if(head.next!=null)
-		{
-			head=head.next;
+		System.out.println(d);
 		}
-		AddLargeNumbers addd= new AddLargeNumbers();
-		//addd.digitsToNumber(element);
-		return element;
+		
+		
 	}
-}
-	class AddLargeNumbers 
-	{    
-	    public static LinkedList numberToDigits(String number) 
-	    {
-	    	Scanner sc = new Scanner(System.in);
-	    	String num1;
-	    	int j=0;
-	    	num1=number;
-	    	int n1,n2,sum=0,a,b;
-			n1=Integer.parseInt(num1);
-//			char c;
-//			for(j=0;j<num1.length();j++)
-//				c=num1.charAt(j);
-				
-			
-			//int i=0;
-			while(n1!=0)
+	public static void main(String args[])
+	{
+		Scanner sc=new Scanner(System.in); 
+		Solution q=new Solution();
+		int n=sc.nextInt();
+		while(sc.hasNext())
+		{
+			String s=sc.nextLine();
+			String[] p=s.split(" ");
+			switch(p[0])
 			{
-				a=n1%10;
-				sum=sum*10+a;
-//				sum=sum+a*10^i;
-				n1=n1/10;
-				//i++;
+			case "pushLeft":
+				q.EnqueueAtFirst(p[1]);
+				q.dispaly1(q);
+				break;
+			case "pushRight":
+				q.EnqueueAtLast(p[1]);
+				q.dispaly1(q);
+				break;
+			case "popLeft":
+				q.DequeueAtFirst();
+				if(!q.isEmpty())
+				q.dispaly1(q);
+				break;
+			case "popRight":
+				q.DequeueAtLast();
+				if(!q.isEmpty())
+				q.dispaly1(q);
+				break;
+			case "size":
+				System.out.println(q.size());
+				break;
+				          
 			}
-			System.out.println("sum= "+sum);
-			int sum1=0;
-			while(sum!=0)
-			{
-				b=sum%10;
-				lists l= new lists();
-				l.insert(b);
-				sum1=sum1*10+b;
-				sum=sum/10;
-			}
-			String ss=String.valueOf(sum);
-			
-			return null;
-	    }
-
-	    public static String digitsToNumber(LinkedList list) 
-	    {
-	    	int a,sum=0;
-	    	lists l= new lists();
-	    	a=l.deletefst();
-	    	sum=sum*10+a;
-	    	
-	    	
-			return null;
-	    }
-	    public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) 
-	    {
-	    	
-			return null;
-	    }
+		}
 	}
 
-	public class Solution {
-	    public static void main(String[] args) {
-	        Scanner sc = new Scanner(System.in);
-	        String input = sc.nextLine();
-	        String p = sc.nextLine();
-	        String q = sc.nextLine();
-	        AddLargeNumbers aln= new AddLargeNumbers();
-	        aln.numberToDigits(p);
-	        aln.numberToDigits(q);
-	        switch(input){
-	            case "numberToDigits":
-	                LinkedList pDigits = AddLargeNumbers.numberToDigits(p);
-	                LinkedList qDigits = AddLargeNumbers.numberToDigits(q);
-	                System.out.println(AddLargeNumbers.digitsToNumber(pDigits));
-	                System.out.println(AddLargeNumbers.digitsToNumber(qDigits));
-	                break;
 
-	            case "addLargeNumbers":
-	                LinkedList pDigits1 = AddLargeNumbers.numberToDigits(p);
-	                LinkedList qDigits1 = AddLargeNumbers.numberToDigits(q);
-	                LinkedList result = AddLargeNumbers.addLargeNumbers(pDigits1, qDigits1);
-	                System.out.println(AddLargeNumbers.digitsToNumber(result));
-	                break;
-        }
-    }   
 }
-
- 
