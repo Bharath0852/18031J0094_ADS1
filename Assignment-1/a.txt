@@ -1,0 +1,352 @@
+########## Testcase 0: Failed ##########
+Expected Output: 
+999
+111
+
+Your Output: 
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at Solution.main(Solution.java:143)
+
+----------------------------------------
+########## Testcase 1: Failed ##########
+Expected Output: 
+46498418098527020928092840923840932840923
+9823374982374823748237402340274074237427303840923
+
+Your Output: 
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at Solution.main(Solution.java:143)
+
+----------------------------------------
+########## Testcase 2: Failed ##########
+Expected Output: 
+46498418096287594875984759875982759875982759827598275297529875982759827598427598475987459872985729752987598475982759827598275982752857298578527020928092840923840932840923
+9823374982374823748237402759827592857982759827592759827598275982759827598275982759827592759827598798572985729857298759287598275982759827598275987589759827502752987598475928759287589340274074237427303840923
+
+Your Output: 
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at Solution.main(Solution.java:143)
+
+----------------------------------------
+########## Testcase 3: Failed ##########
+Expected Output: 
+909
+0
+
+Your Output: 
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at Solution.main(Solution.java:143)
+
+----------------------------------------
+########## Testcase 4: Failed ##########
+Expected Output: 
+90978978957984759847598437508870270982748937849723646465649480498409849808409408441616549840984984040123456789009876543234567898765432345678994334567423456767723445678655678254567682682395828756287238687223876582765238428492837823723879238482364823762387623749698236529659286529876827362378786238752376523876236239876237629876823768927
+873493279823759823759823798237379832780932798237982798237982792387982379238798237598237598237823784723987270193871397130872396523998701743197998398146981319846198649813644984094654184984084984410
+
+Your Output: 
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at Solution.main(Solution.java:143)
+
+----------------------------------------
+########## Testcase 5: Failed ##########
+Expected Output: 
+909789789579847598475984375088702709827489378497236464656494804984098498084094084416165498409849840401234567890098765432345678987654323456789943345674234567677234462795692659265926529652985698255678655678254567682682395828756287238687223876582765238428492837823723879238482364823762387623749698236529659286529876827362378786238752376523876236239876237629876823768927
+87349327982375982375982379823737983278093279823798279823798279238798237923879823759823759823782378472398727019387139713087239652399870174319799839814698131984619864981364498407598237598237598723958723985729857298572987582752375923857923752985729385723985720357023572098572985723985723923752035723957298572985723985794654184984084984410
+
+Your Output: 
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at Solution.main(Solution.java:143)
+
+----------------------------------------
+########## Testcase 6: Failed ##########
+Expected Output: 
+1110
+
+Your Output: 
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at Solution.main(Solution.java:143)
+
+----------------------------------------
+########## Testcase 7: Failed ##########
+Expected Output: 
+17298729465094143782178336767086358354
+
+Your Output: 
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at Solution.main(Solution.java:143)
+
+----------------------------------------
+########## Testcase 8: Failed ##########
+Expected Output: 
+729872958698639793875938799167856438593339414617744257892770845889626807538530965376456562998953974417154274561997373497348635094143782178336767086358354
+
+Your Output: 
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at Solution.main(Solution.java:143)
+
+----------------------------------------
+########## Testcase 9: Failed ##########
+Expected Output: 
+2119
+
+Your Output: 
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at Solution.main(Solution.java:143)
+
+----------------------------------------
+########## Testcase 10: Failed ##########
+Expected Output: 
+729872958698639793875938798437983479843832822055718717801745594186420178272238311955785142425542311974286782795967854242503409135283639282507735296484809448531065366538635078962894008449758000516628886998689991009100968585617778406995389934817017474335197197478437598335718721620738073142148778449041336701370143782178336767086358354
+
+Your Output: 
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at Solution.main(Solution.java:143)
+
+----------------------------------------
+########## Testcase 11: Failed ##########
+Expected Output: 
+72987295869863979387593879843798347984383282205571871780174559418642017827223831195578514242554231197428678279596785424250340913528363928250773537281123831687861811513173877862918587519222744223594642197433146034236035877472705421901972318273733013123340377487760905478670014081581201129930929102021011408239201201201292016538635078962894008449758000516628886998689991009100968585617778406995389934817017474335197197478437598335718721620738073142148778449041336701370143782178336767086358354
+
+Your Output: 
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at Solution.main(Solution.java:143)
+
+----------------------------------------
+Result: 0/12 testcases passed.
+Starting audit...
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:5: Missing a Javadoc comment. [JavadocType]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:6:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:7:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:7:10: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:7:17: Variable 'item' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:8:10: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:8:15: Variable 'next' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:9:10: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:9:15: Variable 'prev' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:10:10: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:10:15: Parameter d should be final. [FinalParameters]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:11:10: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:12:22: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:12:23: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:13: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:13:22: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:13:23: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:14:22: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:14:23: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:16:10: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:17:20: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:17:25: '!=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:17:27: '!=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:18:18: '{' at column 4 should be on the previous line. [LeftCurly]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:26: Missing a Javadoc comment. [JavadocType]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:27:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:28:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:29:9: Class 'Solution' looks like designed for extension (can be subclassed), but the method 'isEmpty' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Solution' final or making the method 'isEmpty' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:29:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:30:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:31:29: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:31:31: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:33:9: Class 'Solution' looks like designed for extension (can be subclassed), but the method 'EnqueueAtLast' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Solution' final or making the method 'EnqueueAtLast' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:33:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:33:21: Name 'EnqueueAtLast' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:33:35: Parameter item should be final. [FinalParameters]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:34:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:35:23: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:35:24: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:36:19: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:37:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:38:30: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:38:31: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:39:25: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:39:26: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:40:17: '}' at column 3 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:42:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:43:22: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:43:23: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:44:17: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:44:18: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:47:9: Class 'Solution' looks like designed for extension (can be subclassed), but the method 'EnqueueAtFirst' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Solution' final or making the method 'EnqueueAtFirst' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:47:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:47:21: Name 'EnqueueAtFirst' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:47:36: Parameter item should be final. [FinalParameters]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:48:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:49: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:51:29: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:51:30: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:52:23: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:53:25: '{' at column 4 should be on the previous line. [LeftCurly]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:54: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:56:30: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:56:31: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:57:25: '}' at column 4 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:63:25: '{' at column 4 should be on the previous line. [LeftCurly]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:64:38: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:64:39: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:65:43: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:65:44: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:68:9: Class 'Solution' looks like designed for extension (can be subclassed), but the method 'DequeueAtFirst' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Solution' final or making the method 'DequeueAtFirst' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:68:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:68:21: Name 'DequeueAtFirst' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:69:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:70:19: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:71:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:75:26: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:75:27: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:76:22: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:76:23: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:77: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:79:9: Class 'Solution' looks like designed for extension (can be subclassed), but the method 'DequeueAtLast' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Solution' final or making the method 'DequeueAtLast' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:79:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:79:21: Name 'DequeueAtLast' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:80:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:81:26: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:81:27: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:82:23: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:83:21: '{' at column 7 should be on the previous line. [LeftCurly]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:86:21: '}' at column 7 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:87:28: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:87:38: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:87:40: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:88:21: '{' at column 7 should be on the previous line. [LeftCurly]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:89:29: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:89:30: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:90:21: '}' at column 7 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:92:21: '{' at column 7 should be on the previous line. [LeftCurly]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:93:30: 'while' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:93:35: '!=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:93:37: '!=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:94:25: '{' at column 4 should be on the previous line. [LeftCurly]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:95: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:96:35: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:96:50: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:96:52: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:97:33: '{' at column 5 should be on the previous line. [LeftCurly]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:98: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:99:50: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:99:51: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:102:37: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:102:38: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:104:29: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:104:30: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:107:9: Class 'Solution' looks like designed for extension (can be subclassed), but the method 'size' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Solution' final or making the method 'size' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:107:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:108:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:109:26: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:109:27: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:110:26: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:110:27: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:111:22: 'while' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:111:27: '!=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:111:29: '!=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:112:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:114:29: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:114:30: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:115: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:119:9: Class 'Solution' looks like designed for extension (can be subclassed), but the method 'dispaly1' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'Solution' final or making the method 'dispaly1' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:119:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:119:23: Parameter q should be final. [FinalParameters]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:120:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:121:24: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:121:25: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:122:26: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:122:27: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:123:19: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:123:24: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:123:26: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:124:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:126:17: '}' at column 3 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:128:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:129:22: 'while' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:129:27: '!=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:129:29: '!=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:130:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:132:29: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:132:30: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:136: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:137: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:139:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:139:33: Parameter args should be final. [FinalParameters]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:139:44: Array brackets at illegal position. [ArrayTypeStyle]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:140:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:141: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:141:27: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:141:28: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:142:27: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:142:28: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:143:22: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:143:23: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:144:22: 'while' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:145:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:146:33: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:146:34: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:147:35: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:147:36: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:148: switch without "default" clause. [MissingSwitchDefault]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:148:31: 'switch' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:149:25: '{' at column 4 should be on the previous line. [LeftCurly]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:160: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:160:35: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:165: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:165:35: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] D:\Github\18031J0094_ADS1\Assignment-1\Solution.java:171: Line has trailing spaces. [RegexpSingleline]
+Audit done.
+Checkstyle ends with 176 errors.
+
+
+[master 8aec5f8] "check_style_score -> 0 of 12 passed. style score: 0/1 "
+ 4 files changed, 177 insertions(+), 145 deletions(-)
+ create mode 100644 Assignment-1/Node.class
+ rewrite Assignment-1/Solution.class (100%)
+ rewrite Assignment-1/Solution.java (94%)
+ create mode 100644 Assignment-1/a.txt
+
+

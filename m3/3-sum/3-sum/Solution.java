@@ -4,47 +4,47 @@ import java.util.Scanner;
 public class Solution {   
 	 public  int count(int[] a){ 
 		 // Count triples that sum to 0.      
-		 int N = a.length;     
-		 int c = 0;    
-		 for (int i = 0; i < N; i++)
-		 {
-			 for (int j = i+1; j < N; j++) 
-			 {
-				 for (int k = j+1; k < N; k++) 
-				 {
-					 if (a[i] + a[j] + a[k] == 0)                  
-					 {
-						 c++;
-					 }
-				 }
-				  
-			 }
-				 
-		 }
-			    
-//		 for(int i = 0 ; i < N-2 ; i++)
+//		 int N = a.length;     
+//		 int c = 0;    
+//		 for (int i = 0; i < N; i++)
 //		 {
-//			 int j=i+1;
-//			 int k=N;
-//			 while(i!=N-2)
+//			 for (int j = i+1; j < N; j++) 
 //			 {
-//				 if (a[i] + a[j] + a[k] == 0)                  
+//				 for (int k = j+1; k < N; k++) 
 //				 {
-//					 c++;
-//					 //i+=2;
-//					 //j+=1;
-//					 k=N-1;
+//					 if (a[i] + a[j] + a[k] == 0)                  
+//					 {
+//						 c++;
+//					 }
 //				 }
-//				 else
-//				 {
-//					 //i+=2;
-//					 //j+=1;
-//					 k=N-1;
-//				 }
+//				  
 //			 }
+//				 
 //		 }
-//					 
-//					 
+			    
+		 for(int i = 0 ; i < N-2 ; i++)
+		 {
+			 int j=i+1;
+			 int k=N;
+			 while(i!=N-2)
+			 {
+				 if (a[i] + a[j] + a[k] == 0)                  
+				 {
+					 c++;
+					 i+=2;
+					 j+=1;
+					 k=N-1;
+				 }
+				 else
+				 {
+					 i+=2;
+					 j+=1;
+					 k=N-1;
+				 }
+			 }
+		 }
+					 
+					 
 					 
 					 
 		 return c;   

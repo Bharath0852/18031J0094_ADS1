@@ -3,7 +3,84 @@ import java.util.*;
 
 public class Solution 
 {
-	
+	public class Node 
+	{
+		int data;
+		Node next;
+		Node(Object d)
+		{
+			data=d;
+			next=null;
+		}
+	}
+		Node head;
+		Node last;
+		public void push(Object a)
+		{
+			Node n= new Node(a);
+			if(head==null && head==null;)
+			{
+				head=n;
+				last=n;
+			}
+			else if(head.next==null)
+			{
+				n.next=head;
+				head=n;
+				last=n;
+			}
+			else
+			{
+				n.next=head;
+				head=n;
+				last=n;
+			}
+		}
+		public void enqueue(Object a)
+		{
+			Node n= new Node(a);
+			if(head==null && last==null)
+			{
+				head=n;
+				last=n;
+			}
+			else if(head.next==null)
+			{
+				n.next=head;
+				head=n;
+				last=n;
+			}
+			else
+			{
+				if(last==head)
+				last=head;
+				last.next=n;
+			}
+		}
+		public void pop()
+		{
+			if(head==null)
+			{
+				System.out.println("Staque is empty.");
+			}
+			else if(head.next!=null)
+			{
+				head.next=head;
+			}
+			else
+			{
+				
+			}
+		}
+		public void print()
+		{
+			Node temp=head;
+			while(temp!=null)
+			{
+				System.out.println(temp.data);
+				temp=temp.next;
+			}
+		}
 	public static void main (String[] args)
 	{
 		Solution s= new Solution();
@@ -19,13 +96,12 @@ public class Solution
 			if(s2.length>1)
 			{
 				n2=s2[1];
-			
-			num=Integer.parseInt(n2);
+			}
 			switch(n1)
 			{
 				case "push" :
 					//s.push(Integer.parseInt(n2));
-					s.push(num);
+					s.push(n2);
 					break;
 				case "pop" :
 					s.pop();
@@ -33,92 +109,9 @@ public class Solution
 					break;
 				case "enqueue" :
 					//s.enqueue(Integer.parseInt(n2));
-					s.enqueue(num);
+					s.enqueue(n2);
 					break;
-			}}
+			}
 		}
-	}
-
-public class Node 
-{
-	int data;
-	Node next;
-	Node(int d)
-	{
-		data=d;
-		next=null;
 	}
 }
-	Node head;
-	public void push(int a)
-	{
-		Node n= new Node(a);
-		if(head==null)
-		{
-			head=n;
-		}
-		else if(head.next==null)
-		{
-			n.next=head;
-			head=n;
-		}
-		else
-		{
-			n.next=head;
-			head=n;
-		}
-	}
-	public void enqueue(int a)
-	{
-		Node n= new Node(a);
-		if(head==null)
-		{
-			head=n;
-		}
-		else if(head.next==null)
-		{
-			n.next=head;
-			head=n;
-		}
-		else
-		{
-			n.next=head;
-			head=n;
-		}
-	}
-	public int pop()
-	{
-		int temp = 0;
-		if(head==null)
-		{
-			System.out.println("Staque is empty.");
-		}
-		else if(head.next!=null)
-		{
-			temp=head.data;
-			head.next=head;
-			
-		}
-		return temp;
-	}
-	public void print()
-	{
-		Node temp=head;
-		while(temp!=null)
-		{
-			System.out.println(temp.data);
-			temp=temp.next;
-		}
-	}
-
-
-}
-
-
-//node
-
-//operations
-
-
-
-
