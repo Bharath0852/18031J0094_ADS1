@@ -1,0 +1,47 @@
+1.  Give traces by showing how the keys E A S Y Q U E S T I O N are sorted with top-down mergesort.
+
+Answer the above problem in a file name problem-1.txt and add it to the folder ADS-1-practice/m9
+Push the respository to GitHub when your answer is done
+Enter the git commit ID in the blank below
+Do not use eval to submit this activity. 
+
+
+step-1: E A S Y Q U E S T I O N
+
+step-2: 	E A S Y Q U        -     E S T I O N
+	
+step-3: 	E A S     Y Q U    - 	 E S T    I O N
+
+step-4:	E    A S   	Y   Q U    -	 E   S T   I   O N
+
+step-6:	E    A S    	Y   Q U    -	 E   S T   I   N O
+
+step-7:	A E S    Q U Y    -	E S T     I N O
+
+step-8:    A E Q S U Y    -	E I N O S T
+
+step-9:    A E E I N O Q S S T U Y
+
+
+
+
+2.  Give traces by showing how the keys E A S Y Q U E S T I O N are sorted with bottom-up mergesort.
+
+Answer the above problem in a file name problem-2.txt and add it to the folder ADS-1-practice/m9
+Push the respository to GitHub when your answer is done
+Enter the git commit ID in the blank below
+Do not use eval to submit this activity.
+
+
+
+step-1: E A S Y Q U E S T I O N
+
+step-2: E A     S Y     Q U      E S     T I     O N
+	
+step-3: A E     S Y     Q U      E S     I T     N O
+
+step-4: A E S Y	E Q S U          I N O T
+
+step-5: A E E Q S U Y	I N O T
+
+step-6:    A E E I N O Q S S T U Y
